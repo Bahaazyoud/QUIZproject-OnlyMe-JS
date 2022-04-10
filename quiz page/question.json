@@ -1,0 +1,41 @@
+[{
+        "title": "arranged into a 5-letter English word?",
+        "answer_1": "H R G S T",
+        "answer_2": "R I L S A",
+        "answer_3": "T O O T T",
+        "answer_4": "W Q G G S",
+        "right_answer": "R I L S A"
+    },
+    {
+        "title": "What number best completes the analogy?",
+        "answer_1": "10",
+        "answer_2": " 3",
+        "answer_3": " 7",
+        "answer_4": "5",
+        "right_answer": "5"
+    },
+    {
+        "title": "Book is to Reading as Fork is to?",
+        "answer_1": "drawing",
+        "answer_2": "writing",
+        "answer_3": "stirring",
+        "answer_4": "eating",
+        "right_answer": "eating"
+    },
+    {
+        "title": "I have three apples. If you take away two from me, how many do you have?",
+        "answer_1": "2",
+        "answer_2": "3",
+        "answer_3": " 5",
+        "answer_4": "7",
+        "right_answer": "2"
+    },
+    {
+        "title": "Some months have 31 days. Some have 30. How many have 28?",
+        "answer_1": "11",
+        "answer_2": "12",
+        "answer_3": " 6",
+        "answer_4": "10",
+        "right_answer": "12"
+    }
+]

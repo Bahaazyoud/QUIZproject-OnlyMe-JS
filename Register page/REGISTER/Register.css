@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Secular+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ :root {
+    --main-color1: linear-gradient(225deg, #90e0ef 0%, #ade8f4 100%);
+    --main-color2: linear-gradient(to top, #023e8a 1%, #2d2fb4 100%);
+    --main-color3: linear-gradient(-225deg, #48cae4 0%, #00b4d8 48%, #0096c7 100%);
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Secular One', sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100vh;
+    background-image: var(--main-color2);
+    box-shadow: 0px 0px 5px 0px black;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2px;
+    align-items: center;
+}
+
+.container::after {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: var(--main-color1);
+    z-index: -1;
+    transform: skewY(-25deg);
+    box-shadow: 0px 0px 20px 0px black;
+    transform-origin: top left;
+}
+
+header {
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    font-size: 30px;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: var(--main-color3);
+    width: 30%;
+    height: 62%;
+    padding-top: 10px;
+    display: grid;
+    margin-left: 50px;
+}
+
+.content::after {
+    content: '';
+    position: absolute;
+    top: 1;
+    left: -14%;
+    z-index: -1;
+    background-image: linear-gradient(225deg, #D7FFFE 0%, #FFFEFF 100%);
+    width: 107%;
+    height: 100%;
+    margin-left: 50px;
+    transform: skewY(30deg);
+    display: grid;
+    grid-template-columns: 1/20;
+    align-items: center;
+}
+
+.Registerside h2 {
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 35px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 10px 40px;
+    border-radius: 25px;
+    border: none;
+    background-color: #90e0ef;
+}
+
+#submit {
+    margin-bottom: 10px;
+    padding: 10px 80px;
+    border-radius: 25px;
+    border: none;
+    background-color: #90e0ef;
+}
+
+#submit {
+    background-color: #03045e;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    transition: .5s;
+}
+
+#submit:hover {
+    background-color: #065a58;
+    color: white;
+    text-align: center;
+}
+
+::placeholder {
+    color: #03045e;
+    font-weight: bold;
+}
